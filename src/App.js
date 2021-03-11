@@ -37,6 +37,13 @@ function App() {
       </div>
       <div className="jobs-center">
         {/* button container */}
+        <div className="btn-container">
+          {jobs.map((item, index) => {
+            return <button key={item.id} onClick={() => setValue(index)}>
+              {item.company}
+            </button>
+          })}
+        </div>
         {/* job content */}
         <article className="job-info">
           <h3>{title}</h3>
