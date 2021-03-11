@@ -10,3 +10,4 @@ Only one job is displayed at this time because the value is hard coded to first 
 Add buttons for all the job title we have on the array list. Once the button is clicked change the state value to 1, 2 etc accordingly. Display also updated state value.
 Iterate over jobs, and for every job, display specific button.
 Add onClick, clicking the button, adds the index which tells in the list where that job is. Also change the value once the button is clicked. The default value is zero, but as the button is clicked, the state in the value changes, and so the values for the properties.
+on the button className, if the index matches the current state value, addd active-btn class.
